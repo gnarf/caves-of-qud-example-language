@@ -499,7 +499,21 @@ Caves of Qud - Generated Localizable XML 2.0.212.4
             <statline Name="Cooldown" />
           </leveltext>
     </mutation>
-    <mutation Name="Burgeoning" DisplayName="▶Burgeoning" BearerDescription="▶psychic gardeners" />
+    <mutation Name="Burgeoning" DisplayName="▶Burgeoning" BearerDescription="▶psychic gardeners">
+      <description>▶
+            <p>You cause plants to spontaneously grow in a nearby area, hindering your enemies.</p>
+          </description>
+      <leveltext>▶
+            <statline Name="Range" />
+            <p>Area: <stat Name="Area" /> + growth into adjacent tiles</p>
+            <statline Name="Cooldown" />
+            <switch Name="LevelMatch">
+              <case Value="true"></case>
+              <default><p>More powerful plants summoned</p></default>
+            </switch>
+            <p>+200 reputation with {{w|the Consortium of Phyta}}</p>
+          </leveltext>
+    </mutation>
     <mutation Name="Clairvoyance" DisplayName="▶Clairvoyance" BearerDescription="▶the clairvoyant">
       <description>▶You briefly gain vision of a nearby area.</description>
       <leveltext>▶
@@ -508,7 +522,16 @@ Caves of Qud - Generated Localizable XML 2.0.212.4
             <statline Name="Cooldown" Unit="round" />
           </leveltext>
     </mutation>
-    <mutation Name="Confusion" DisplayName="▶Confusion" BearerDescription="▶riddlers" />
+    <mutation Name="Confusion" DisplayName="▶Confusion" BearerDescription="▶riddlers">
+      <description>▶You confuse nearby enemies.</description>
+      <leveltext>▶
+          <p>Affected creatures act semi-randomly and receive a -<stat Name="Penalty" /> penalty to their mental abilities.</p>
+          <statline Name="ConeAngle" DisplayName="Cone angle" Unit="degree" />
+          <statline Name="ConeLength" DisplayName="Cone length" />
+          <statline Name="Duration" />
+          <statline Name="Cooldown" />
+        </leveltext>
+    </mutation>
     <mutation Name="Cryokinesis" DisplayName="▶Cryokinesis" BearerDescription="▶cryomancers" />
     <mutation Name="Disintegration" DisplayName="▶Disintegration" BearerDescription="▶disintegrators" />
     <mutation Name="Domination" DisplayName="▶Domination" BearerDescription="▶those who dominate the wills of others">
