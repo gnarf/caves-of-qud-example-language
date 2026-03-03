@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--
-Caves of Qud - Generated Localizable XML 2.0.212.10
+Caves of Qud - Generated Localizable XML 2.0.212.12
 
 <objects>
 
@@ -1056,15 +1056,15 @@ Caves of Qud - Generated Localizable XML 2.0.212.10
   </object>
   <object Name="SunderGrenade1" Load="Merge">
     <part Name="Render" DisplayName="▶{{resonance|resonance}} grenade mk I" />
-    <part Name="Description" Short="▶A cast iron bulb is clamped by a lever with a pull ring. It purrs with a distinctive crackle.&#xA;&#xA;          &amp;C2d100+20 damage to structural objects.&#xA;          &amp;C2d10+4 damage to non-structural objects." />
+    <part Name="Description" Short="▶A cast iron bulb is clamped by a lever with a pull ring. It purrs with a distinctive crackle.&#xA;&#xA;          {{C|2d100+20 damage to structural objects.}}&#xA;          {{C|2d10+4 damage to non-structural objects.}}" />
   </object>
   <object Name="SunderGrenade2" Load="Merge">
     <part Name="Render" DisplayName="▶{{resonance|resonance}} grenade mk II" />
-    <part Name="Description" Short="▶A metal shoal of waffled hexagons is clamped by a chrome lever. It purrs with a distinctive crackle.&#xA;&#xA;          &amp;C4d100+20 damage to structural objects.&#xA;          &amp;C4d10+8 damage to non-structural objects." />
+    <part Name="Description" Short="▶A metal shoal of waffled hexagons is clamped by a chrome lever. It purrs with a distinctive crackle.&#xA;&#xA;          {{C|4d100+20 damage to structural objects.}}&#xA;          {{C|4d10+8 damage to non-structural objects.}}" />
   </object>
   <object Name="SunderGrenade3" Load="Merge">
     <part Name="Render" DisplayName="▶{{resonance|resonance}} grenade mk III" />
-    <part Name="Description" Short="▶A thick metal jacket encases the explosive and is clamped to a quick-release lever. It purrs with a distinctive crackle.&#xA;&#xA;          &amp;C6d100+20 damage to structural objects.&#xA;          &amp;C6d10+12 damage to non-structural objects." />
+    <part Name="Description" Short="▶A thick metal jacket encases the explosive and is clamped to a quick-release lever. It purrs with a distinctive crackle.&#xA;&#xA;          {{C|6d100+20 damage to structural objects.}}&#xA;          {{C|6d10+12 damage to non-structural objects.}}" />
   </object>
   <object Name="PlasmaGrenade1" Load="Merge">
     <part Name="Render" DisplayName="▶{{plasma|plasma}} grenade mk I" />
