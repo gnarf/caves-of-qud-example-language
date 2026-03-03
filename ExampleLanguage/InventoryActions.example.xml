@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Caves of Qud - Generated Localizable XML 2.0.212.13
+
+-->
+<inventoryActions Lang="example" Encoding="utf-8">
+  <inventoryAction Name="InterfaceWithGritGateMainframe">
+    <display>▶interface</display>
+    <key>▶i</key>
+  </inventoryAction>
+  <inventoryAction Name="WakeSleeper">
+    <display>▶wake</display>
+    <key>▶w</key>
+  </inventoryAction>
+  <inventoryAction Name="DismissProselyte">
+    <display>▶dismiss</display>
+    <key>▶d</key>
+  </inventoryAction>
+  <inventoryAction Name="DismissServitor">
+    <display>▶dismiss</display>
+    <key>▶d</key>
+  </inventoryAction>
+  <inventoryAction Name="CompanionStopFlying">
+    <display>▶direct to stop flying</display>
+    <key>▶_</key>
+  </inventoryAction>
+  <inventoryAction Name="Read">
+    <display>▶read</display>
+    <key>▶r</key>
+  </inventoryAction>
+  <inventoryAction Name="ReadUnread">
+    <display>▶read</display>
+    <key>▶r</key>
+  </inventoryAction>
+</inventoryActions>
